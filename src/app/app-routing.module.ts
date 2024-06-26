@@ -3,14 +3,31 @@ import { RouterModule, Routes } from '@angular/router';
 import { AdmindashComponent } from './admindash/admindash.component';
 import { AppointmentComponent } from './appointment/appointment.component';
 import { CreateAppointmentComponent } from './create-appointment/create-appointment.component';
+import { HomeComponent } from './home/home.component';
+import { DocdashComponent } from './docdash/docdash.component';
+import { CreatePatientComponent } from './create-patient/create-patient.component';
 
 const routes: Routes = [
   {path:'admin',component:AdmindashComponent},
+ 
+  {
+    path:'create-appointment',component:CreateAppointmentComponent
+  },
+
   {
     path:'appointmentlist',component:AppointmentComponent
   }
+  ,{
+      path:'home',component:HomeComponent
+  },
   {
-    path:'create-appointment',component:CreateAppointmentComponent
+    path:'',redirectTo:'home',pathMatch:'full'
+  }
+  ,{
+    path:'docdash',component:DocdashComponent
+  },
+  {
+    path:'create-patient',component:CreatePatientComponent
   }
 ];
 

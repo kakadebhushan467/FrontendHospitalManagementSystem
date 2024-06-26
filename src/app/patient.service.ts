@@ -15,7 +15,11 @@ getPatientList():Observable<Patient[]>{
   return this.httpClient.get<Patient[]>(`${this.baseUrl}`)
 }
 delete(id:number):Observable<object>{
-  return this.httpClient.delete(`${this.baseUrl}${id}`);
+  return this.httpClient.delete(`${this.baseUrl}/${id}`);
+}
+
+createPatient(patient:Patient):Observable<Patient>{
+  return this.httpClient.post<Patient>(`${this.baseUrl}`,patient);
 }
 
 }

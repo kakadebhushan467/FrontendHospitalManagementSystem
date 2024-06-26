@@ -9,7 +9,7 @@ import { Patient } from '../patient';
 })
 export class AdmindashComponent {
 patients:Patient[]=[];
-  constructor(private patientService:PatientService){
+  constructor(private patientService:PatientService) {
   }
   ngOnInit():void{
     this.getPatients();

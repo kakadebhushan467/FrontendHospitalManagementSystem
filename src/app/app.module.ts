@@ -11,6 +11,9 @@ import { FormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
 import { DocdashComponent } from './docdash/docdash.component';
 import { CreatePatientComponent } from './create-patient/create-patient.component';
+import { MedicinelistComponent } from './medicinelist/medicinelist.component';
+import { CreateMedicineComponent } from './create-medicine/create-medicine.component';
+import { UpdatePatientComponent } from './update-patient/update-patient.component';
 
 
 
@@ -22,7 +25,10 @@ import { CreatePatientComponent } from './create-patient/create-patient.componen
     CreateAppointmentComponent,
     HomeComponent,
     DocdashComponent,
-    CreatePatientComponent
+    CreatePatientComponent,
+    MedicinelistComponent,
+    CreateMedicineComponent,
+    UpdatePatientComponent
   ],
   imports: [
     BrowserModule,

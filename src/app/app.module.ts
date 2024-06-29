@@ -14,6 +14,8 @@ import { CreatePatientComponent } from './create-patient/create-patient.componen
 import { MedicinelistComponent } from './medicinelist/medicinelist.component';
 import { CreateMedicineComponent } from './create-medicine/create-medicine.component';
 import { UpdatePatientComponent } from './update-patient/update-patient.component';
+import { ViewPatientComponent } from './view-patient/view-patient.component';
+import { ViewMedicineComponent } from './view-medicine/view-medicine.component';
 
 
 
@@ -28,7 +30,9 @@ import { UpdatePatientComponent } from './update-patient/update-patient.componen
     CreatePatientComponent,
     MedicinelistComponent,
     CreateMedicineComponent,
-    UpdatePatientComponent
+    UpdatePatientComponent,
+    ViewPatientComponent,
+    ViewMedicineComponent
   ],
   imports: [
     BrowserModule,

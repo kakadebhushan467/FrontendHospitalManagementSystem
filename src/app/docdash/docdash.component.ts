@@ -32,4 +32,8 @@ delete(id:number){
     this.getPatients();
   })
 }
+  view(id:number){
+    this.router.navigate(['view-patient',id]);
+  }
 }
+

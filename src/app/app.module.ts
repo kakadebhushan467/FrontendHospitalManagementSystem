@@ -17,6 +17,7 @@ import { UpdatePatientComponent } from './update-patient/update-patient.componen
 import { ViewPatientComponent } from './view-patient/view-patient.component';
 import { ViewMedicineComponent } from './view-medicine/view-medicine.component';
 import { UpdateMedicineComponent } from './update-medicine/update-medicine.component';
+import { DocloginComponent } from './doclogin/doclogin.component';
 
 
 
@@ -34,7 +35,8 @@ import { UpdateMedicineComponent } from './update-medicine/update-medicine.compo
     UpdatePatientComponent,
     ViewPatientComponent,
     ViewMedicineComponent,
-    UpdateMedicineComponent
+    UpdateMedicineComponent,
+    DocloginComponent
   ],
   imports: [
     BrowserModule,
